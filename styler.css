@@ -1,0 +1,56 @@
+body{
+    background: black;
+    max-width: 500px;
+    margin: 100px auto;
+    
+}
+h1{
+    text-align: center;
+    color: purple;
+    font-size: 40px;
+}
+#botao{
+    outline: none;
+    height: 45px;
+    background: purple;
+    cursor: pointer;
+    color: white;
+    border-radius: 7px;
+    width: 70px;
+    border: rgb(93, 34, 160) solid 2px;
+
+} 
+#botao:hover{
+    background-color: rgb(158, 76, 158);
+    transition: 0.5s;
+    border: rgb(158, 76, 158) solid ;
+}
+#texto{
+    border:  2px purple solid;
+    background: #333;
+    color: #eee;
+    outline: none;
+    height: 40px;
+    border-radius: 5px;
+    width: 70%;
+}
+li{
+    background-color: #4a148c;
+    padding: 10px;
+    height: 20px;
+    margin-right: 40px;
+    border-radius: 5px;
+    color:#eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold; /*Deixar em negrito*/
+     
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+span{
+    cursor: pointer;
+}
